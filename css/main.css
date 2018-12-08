@@ -1,0 +1,224 @@
+@font-face {
+	font-family: bodoni;
+    src: url(assets/fonts/bodoni/BodoniSvtyTwoITCTT-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: bodoni;
+    src: url(assets/fonts/bodoni/BodoniSvtyTwoITCTT-Book.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: bodoni;
+    src: url(assets/fonts/bodoni/BodoniSvtyTwoITCTT-BookIta.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}  
+body {
+    font-family: ("bodoni", serif);
+    font-weight: normal;
+    font-style: normal;
+    margin: 100px;
+    margin-left: 120px;
+    margin-bottom: 0;
+}
+p {
+    max-width: 75ch;
+    line-height: 125%;
+}
+/* nav */
+nav {
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-top: -50px;
+    margin-right: 450px;
+    margin-left: -50px;
+    padding-bottom: 15px;
+    border-bottom: black solid 1px;
+}
+#navone {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: black; 
+}
+a:hover { 
+   color: red;
+}
+.navspace {
+    padding: 20px 20px 20px 0;
+}
+/* A */
+.A {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: -120px;
+    margin-top: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+.officespace {
+    width: auto;
+    height: 500px;
+    filter: grayscale(1); 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.rightoffset {
+    margin-left: 22px;
+}
+#a-titles {
+    font-size: 10em;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    line-height: 80%;
+}
+/* B */
+.B {
+    margin-left: 25px;
+    margin-right: 75px;
+}
+.about {
+    font-size: 4em;
+    color: red;
+}
+.twocolumn {
+    margin-top: -40px;
+    display: flex;
+}
+.spacing {
+    margin-left: 50px;
+}
+/* reverse A */
+.leftoffset {
+    margin-left: 125px;
+    width: 100%;
+}
+.button {
+    padding: 10px 20px;
+    width: 85px;
+    background-color: #a6b8bd;
+    color: white;
+    font-family: sans-serif;
+}
+#left {
+    margin-left: 54%;
+}
+#bfa {
+    margin-top: 50px;
+}
+#bfabutton {
+    margin-top: 50px;
+}
+#bfaleft {
+    margin-top: 150px;
+    margin-left: 54%;
+}
+/* C */
+#level2headings {
+    margin-top: 100px;
+    margin-bottom: -10px;
+}
+.subtitle {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: red;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.info {
+    font-family: ("bodoni", serif);
+    font-weight: normal;
+    font-style: italic;
+    margin-top: -15px;
+    text-transform: uppercase;
+}
+#elective-courses {
+    margin-top: 200px;
+}
+#bfa-required-courses {
+    margin-top: -30px;
+}
+/* D */
+#reverseA {
+    margin-left: 700px;
+    margin-top: -120px;
+}
+#reverselevel2headings {
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+#bluebox {
+    margin-top: -30px;
+    padding: 5px;
+    padding-left: 25px;
+    background-color: #a6b8bd;
+    opacity: 0.7;
+    width: 800px;
+}
+#reverseA2 {
+    margin-left: 700px;
+    margin-top: -120px;
+}
+/* E */
+#space-above {
+    margin-top: -100px;
+}
+#profile {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+#reverseAE {
+    margin-left: -250px;
+    margin-top: 235px;
+    padding-bottom: 100px;
+}
+.profession {
+    margin-top: -30px;
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 90%;
+}
+.height {
+    line-height: 50%;
+}
+#reverseAreverseE {
+    margin-left: -250px;
+    margin-top: 235px;
+    padding-bottom: 100px;
+}
+/* footer */
+footer {
+    font-family: sans-serif;
+    background-color: #a6b8bd;
+    padding: 50px;
+    width: 110%;
+    margin-left: -120px;
+    margin-top: 75px;
+    display: flex;
+}
+.logo {
+    width: 300px;
+    height: auto;
+}
+.footerspacing {
+    margin-left: 800px;
+}
+.icons {
+    width: 40px;
+    height: auto;
+    margin-left: 40px;
+}
+.footerlinks {
+    margin-top: 20px;
+    margin-left: 48px;
+}
+.color {
+    color: white;
+}
